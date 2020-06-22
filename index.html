@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenguru</title>
-    <link rel="stylesheet" href="node_modules/normalize.css/package.json">
-    <link rel="stylesheet" href="node_modules/reset-css/package.json">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/reset-css/reset.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/logo.css">
+    <link rel="stylesheet" href="assets/css/contacts.css">
+    <link rel="stylesheet" href="assets/css/search-form.css">
 </head>
 <body>
     <header class="header">
-        <div>
+        <div class="header__container">
             <div class="header__logo">
                 <a href="" class="header__logo">
                     <img src="assets/images/logo-final-1.svg" alt="" width=226px height=69px;>
@@ -19,15 +23,15 @@
 
             <div class="header__contacts">
                 <div class="header__contacts__phone">
-                    <img src="assets/images/phone-icon.svg" alt="" width="15px" height="15px">
                     <a href="tel:+7(4872)717171" class="header__contacts__phone__link">
+                        <img src="assets/images/phone-icon.svg" alt="" class="header__contacts__image" width="15px" height="15px">
                         <span>+7 (4872) 71-71-71</span>
                     </a>
                 </div>
                 
                 <div class="header__contacts__location">
-                    <img src="assets/images/location-icon.svg" alt="" width="15px" height="15px">
                     <a href="https://yandex.by/maps/15/tula/house/ulitsa_puzakova_44/Z04YcAZhQUcEQFtufX5weHhrYA==/?ll=37.611823%2C54.219484&sll=27.561481%2C53.902496&source=wizgeo&sspn=1.444702%2C0.510921&utm_medium=maps-desktop&utm_source=serp&z=16.72" target="_blank">
+                        <img src="assets/images/location-icon.svg" alt="" class="header__contacts__image" width="15px" height="15px">
                         <span>г. Тула, ул. Пузакова, 44</span>
                     </a>
                 </div>
@@ -42,15 +46,15 @@
             </form>
 
             <div class="header__personal-account">
-                <img src="assets/images/user-icon.svg" alt="" width="27px" height="25px">
                 <a href="" class="header__personal-account__link">
+                    <img src="assets/images/user-icon.svg" alt="" width="27px" height="25px">
                     <span>Личный кабинет</span>
                 </a>
             </div>
 
             <div class="header__basket">
-                <img src="assets/images/cart-icon.svg" alt="" width="27px" height="25px">
                 <a href="" class="header__basket__link">
+                    <img src="assets/images/cart-icon.svg" alt="" width="27px" height="25px">
                     <span>Корзина</span>
                 </a>
             </div>

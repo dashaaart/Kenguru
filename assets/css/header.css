@@ -1,0 +1,12 @@
+.header {
+    background: url(../images/background.svg);
+    padding: 55px;
+}
+
+.header__container {
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}

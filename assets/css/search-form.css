@@ -1,0 +1,19 @@
+.header__search-form {
+    display: flex;
+    position: relative;
+}
+
+.header__search-form__input {
+    min-width: 500px;
+    min-height: 40px;
+    font-size: 0,9333333333333333rem;
+    line-height: 2,857142857142857rem;
+
+}
+
+.header__search-form__button {
+    position: absolute;
+
+    
+
+}
