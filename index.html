@@ -8,38 +8,50 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__logo">
-            <img src="assets/images/logo.png" alt="">
-        </div>
-
-        <div class="header__contacts">
-            <div class="header__contacts__phone">
-                <img src="assets/images/phone-icon.png" alt="">
-                <span>+7 (4872) 71-71-71</span>
+        <div>
+            <div class="header__logo">
+                <a href="" class="header__logo">
+                    <img src="assets/images/logo.png" alt="">
+                </a>
             </div>
-            
-            <div class="header__contacts__location">
-                <img src="assets/images/location-icon.png" alt="">
-                <span>г. Тула, ул. Пузакова, 44</span>
+
+            <div class="header__contacts">
+                <div class="header__contacts__phone">
+                    <img src="assets/images/phone-icon.png" alt="">
+                    <a href="tel:+7(4872)717171" class="header__contacts__phone__link">
+                        <span>+7 (4872) 71-71-71</span>
+                    </a>
+                </div>
+                
+                <div class="header__contacts__location">
+                    <img src="assets/images/location-icon.png" alt="">
+                    <a href="https://yandex.by/maps/15/tula/house/ulitsa_puzakova_44/Z04YcAZhQUcEQFtufX5weHhrYA==/?ll=37.611823%2C54.219484&sll=27.561481%2C53.902496&source=wizgeo&sspn=1.444702%2C0.510921&utm_medium=maps-desktop&utm_source=serp&z=16.72" target="_blank">
+                        <span>г. Тула, ул. Пузакова, 44</span>
+                    </a>
+                </div>
             </div>
-        </div>
 
-        <div class="header__search-form">
-            <input class="header__search-form__input" type="text" placeholder="Поиск по товарам">
-            <div class="header__search-form__button">
-                <input class="header__search-form__button__image" type="image" src="assets/images/search-icon.png">
-                <span class="header__search-form__button__text">Найти</span>
+            <form class="header__search-form">
+                <input class="header__search-form__input" type="text" placeholder="Поиск по товарам">
+                <button class="header__search-form__button">
+                    <img class="header__search-form__button__image" src="assets/images/search-icon.png">
+                    <span class="header__search-form__button__text">Найти</span>
+                </button>
+            </form>
+
+            <div class="header__personal-account">
+                <img src="assets/images/user-icon.png" alt="">
+                <a href="" class="header__personal-account__link">
+                    <span>Личный кабинет</span>
+                </a>
             </div>
-        </div>
 
-        <div class="header__personal-account">
-            <img src="assets/images/user-icon.png" alt="">
-            <span>Личный кабинет</span>
-        </div>
-
-        <div class="header__basket">
-            <img src="assets/images/cart-icon.png" alt="">
-            <span>Корзина</span>
+            <div class="header__basket">
+                <img src="assets/images/cart-icon.png" alt="">
+                <a href="" class="header__basket__link">
+                    <span>Корзина</span>
+                </a>
+            </div>
         </div>
 
     </header>
