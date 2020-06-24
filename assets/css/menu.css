@@ -1,0 +1,29 @@
+.menu {
+    background: url(../images/pattern1.svg);
+    padding: 20px;
+}
+
+.menu__pets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.menu__pets__link {
+    display: flex;
+    align-items: center;
+}
+
+.menu__pets__img {
+    padding-right: 20px;
+}
+
+.menu__pets__text {
+    font-weight: normal;
+    font-size: 0,9333333333333333rem;
+    line-height: 0,8333333333333333rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
