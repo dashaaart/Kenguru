@@ -1,0 +1,30 @@
+.header__account-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__personal-account__link,
+.header__basket__link {
+    display: flex;
+    align-items: center;
+}
+
+.header__personal-account,
+.header__basket {
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1,285714285714286rem;
+}
+
+.header__personal-account__link__img,
+.header__basket__link__img {
+    margin-right: 10px;
+}
+
+.header__personal-account__link__text,
+.header__basket__link__text {
+    text-decoration-line: underline;
+    text-decoration-style: dashed; 
+    text-underline-position: under left;
+    
+}

@@ -5,11 +5,19 @@
     line-height: 18px;
     --header-link-color: #FFFFFF;
     --placeholder-color: #D6D6D6;
+    --radius: 5px;
+    --color1: #572F8C;
+    --color2: #68D6F4;
+    --color3: #343640;
+    --color4: #FD6D6D;
+    --color5: #DFDFDF;
+    --color6: #F4F4F4;
+    --color7: #FCFCFC;
 }
 
 a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--header-link-color);
 }
 
 img {

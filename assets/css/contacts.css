@@ -1,15 +1,17 @@
 .header__contacts {
     display: flex;
+    flex-direction: column;
     min-width: 184px;
     min-height: 42px;
-    flex-direction: column;
 }
 
 .header__contacts__location,
 .header__contacts__phone {
     margin-bottom: 10px;
+    font-weight: bold;
     font-size: 0,9333333333333333rem;
     line-height: 1,142857142857143rem;
+    color: var(--header-link-color);
 
 }
 
